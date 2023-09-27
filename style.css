@@ -6,14 +6,13 @@ body {
   background-color: black;
   width: 800px;
   height: 600px;
-  border-radius: 8px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -400px;
   margin-top: -300px;
-  padding: 4px;
-  box-sizing: border-box;
+  margin-left: -400px;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 #table {
@@ -24,12 +23,10 @@ body {
 
 #ball {
   background-color: white;
-  width: 24px;
-  height: 24px;
-  position: absolute;
+  width: 32px;
+  height: 32px;
   border-radius: 4px;
-  top: 0;
-  left: 0;
+  position: absolute;
   transition: all 0.1s;
 }
 
@@ -37,9 +34,7 @@ body {
   background-color: white;
   width: 128px;
   height: 24px;
-  bottom: 0;
-  left: 0;
   position: absolute;
   border-radius: 4px;
-  transition: left 0.1s;
+  transition: all 0.1s;
 }
